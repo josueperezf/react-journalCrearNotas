@@ -6,9 +6,19 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "firebase": "^8.4.2",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "sweetalert2": "^10.16.8",
+    "validator": "^13.6.0",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -34,5 +44,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^6.0.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
+    "cloudinary": "^1.25.1",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
+    "redux-devtools": "^3.7.0",
+    "redux-mock-store": "^1.5.4"
   }
 }
