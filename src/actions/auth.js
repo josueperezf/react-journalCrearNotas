@@ -24,7 +24,7 @@ export const startLoginEmailPassword =  (email, password)=>{
             // tambien quitamos el cargando cuando ocurre un error
             dispatch(uiFinishLoading());
             //usando sweetalert
-            Swal.fire('Error', e.message ,'error');
+            Swal.fire('Error', ' '+e.message ,'error');
         });
     }
 }
